@@ -24,4 +24,4 @@ BoardMember.prototype.sayHi = () => {
   console.log(this)
 }
 
-new BoardMember('hasar', 'ny', 'web').sayHi
+new BoardMember('hasar', 'ny', 'web').sayHi()
