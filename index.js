@@ -24,6 +24,6 @@ BoardMember.prototype.sayHi = (wow) => {
   console.log(wow)
 }
 
-const call = (x) => console.log(this)
+const call = (x) => console.log(this.wow)
 call({wow: 'wow'})
 // new BoardMember('hasar', 'ny', 'web').sayHi({wow: 'wow'})
