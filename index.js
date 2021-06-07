@@ -23,3 +23,5 @@ BoardMember.prototype.releasePressStatement = function() {
 BoardMember.prototype.sayHi = () => {
   console.log(this)
 }
+
+new BoardMember('hasar', 'ny', 'web').sayHi
