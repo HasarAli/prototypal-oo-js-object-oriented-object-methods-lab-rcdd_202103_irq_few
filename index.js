@@ -25,4 +25,4 @@ BoardMember.prototype.sayHi = (wow) => {
 }
 
 
-new BoardMember('hasar', 'ny', 'web').sayHi({wow,})
+new BoardMember('hasar', 'ny', 'web').sayHi({wow: 'wow'})
