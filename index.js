@@ -20,8 +20,9 @@ BoardMember.prototype.releasePressStatement = function() {
   return 'You will see great things from Scuber'
 }
 
-BoardMember.prototype.sayHi = ({wow: 'wow'}) => {
+BoardMember.prototype.sayHi = (wow) => {
   console.log(this)
 }
 
-new BoardMember('hasar', 'ny', 'web').sayHi()
+
+new BoardMember('hasar', 'ny', 'web').sayHi({wow,})
