@@ -21,7 +21,7 @@ BoardMember.prototype.releasePressStatement = function() {
 }
 
 BoardMember.prototype.sayHi = (wow) => {
-  console.log(this)
+  console.log(wow)
 }
 
 
